@@ -105,13 +105,6 @@ system_dependencies = system-dependencies.json
 primary_branch = main
 managed_services = klipper
 
-[update_manager klipper-backup]
-type = git_repo
-path = ~/klipper-backup
-origin = https://github.com/Staubgeborener/klipper-backup.git
-managed_services = moonraker
-primary_branch = main
-
 [update_manager octoeverywhere]
 type = git_repo
 channel = beta
